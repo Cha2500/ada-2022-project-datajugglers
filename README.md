@@ -1,6 +1,6 @@
 # Networking in the movie insustry : a key to success ?
 
-![image](data/image ADA)
+![image](data/image ADA.png)
 
 ## Study of the influence of actors network on their career evolution
 
