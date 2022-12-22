@@ -17,32 +17,8 @@ We wanted to find a way to quantify how much an actor is successful in his carre
   <img src="image/distribution_rates.png" alt="drawing" width="300"/>
 </p>
 
-
+---> not sure to add
 ### Graph construction and analysis
-
-#### Nodes, Edges and average degree
-
-First, the graph of all the actors and movies have to be made. The graph is built from movies between 1980  and 2010. It is an undirected graph, since if one actor plays with another in a movie, it is always reciprocal.
-
-| number of nodes | number of edges |  
-|:----------------|:----------------|
-|  75276          | 1225697         | 
-
-The average node degree of our graph for the entire period is equal to $\frac{2E}{N} = \frac{2*75276}{1225697} = 32$. 
-
-<p align="center">
-  <img src="image/node_degree.png" alt="drawing" width="500"/>
-</p>
-
-
-The node degree distribution is heavy tailed, with some actors that played with much more actors, so surely in much more movies than others.
-Then, let's look if this average degree depends on the time, and also if it changes with different time windows (if there is a strong change in the average degree per actor for longer or shorter time periods).
-
-<p align="center">
-  <img src="image/average_degree.png" alt="drawing" width="700"/>
-</p>
-
-There are more oscillations for a time window of 1 year, which is normal, because an actor can play in a very different numbers of movies from on year to another. Furthermore, the average degree of actors is higher when the time window is higher, which is, again, as expected, because the actor will have more time to play in movies with other actors. Finally, the average node degree in increasing with time, (the average node degree is much higher in 2010 than in 1980). This may be due to the fact that we have more data in 2010 than in 1980, and to a higher number of movies created in the 2000s. We decided to keep a time window of 5, because there are less fluctuations than for 1 year, and less edges than for 10 years. 
 
 #### K-distant neighborhoods
 
@@ -57,14 +33,44 @@ Then, we wanted to investigate how does the K-distant neighborhood size distribu
 </p>
 
 
-For K=1, the neighborhood of the actor is really the actors that played with him, weither K = 2 includes also the actors that played with the same actors one has played with, which increase the neighborhood considerably. 
+For K=1, the neighborhood of the actor is really the actors that played with him, weither K = 2 includes also the actors that played with the same actors one has played with, which increase the neighborhood considerably.
 
+-----
 
 ### With how many actors do an actor play in average ? 
 
+First, the graph of all the actors and movies have to be made. The graph is built from movies between 1980  and 2010. It is an undirected graph, since if one actor plays with another in a movie, it is always reciprocal.
+
+| number of nodes | number of edges |  
+|:----------------|:----------------|
+|  75276          | 1225697         | 
+
+The average node degree of our graph for the entire period is equal to $\frac{2E}{N} = \frac{2*75276}{1225697} = 32$. 
+
+<p align="center">
+  <img src="image/node_degree.png" alt="drawing" width="500"/>
+</p>
+
+The node degree distribution is heavy tailed, with some actors that played with much more actors, so surely in much more movies than others.
+
+But how does it change with the time window ? 
+
+<p align="center">
+  <img src="image/average_degree.png" alt="drawing" width="700"/>
+</p>
+
+There are more oscillations for a time window of 1 year, which is normal, because an actor can play in a very different numbers of movies from on year to another. Furthermore, the average degree of actors is higher when the time window is higher, which is, again, as expected, because the actor will have more time to play in movies with other actors. Finally, the average node degree in increasing with time, (the average node degree is much higher in 2010 than in 1980). This may be due to the fact that we have more data in 2010 than in 1980, and to a higher number of movies created in the 2000s. We decided to keep a time window of 5, because there are less fluctuations than for 1 year, and less edges than for 10 years. 
 
 
-### How does the neighbourhood closeness change over time ? 
+###  Who are those actors that have the most co-workers ? 
+
+ADD graph or histogram with the ~40 actors that have most edges. 
+
+(### How does the neighbourhood closeness change over time ? )
+
+### 
+
+
 
 This site was built using [this github repository](https://github.com/epfl-ada/ada-2022-project-datajugglers/tree/master)
 
