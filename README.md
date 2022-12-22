@@ -1,6 +1,6 @@
 # Networking in the movie insustry : a key to success ?
 
-![image](image/image_ADA.png)
+![header](image/image_ADA.png)
 
 ## Study of the influence of actors network on their career evolution
 
@@ -10,7 +10,7 @@ How do actors become famous ? Is it only thanks to their skills ? Did their care
 
 We wanted to find a way to quantify how much an actor is successful in his carreer. We decided that a successful actor is an actor that plays in movies considered good by the public, which can be assessed thanks to the movie ratings. Then, an actor "success" is defined as the weighted average of their precedent movies, and the current one. 
 
-![image](image/distribution_rates.png)
+![rating](image/distribution_rates.png)
 
 
 
