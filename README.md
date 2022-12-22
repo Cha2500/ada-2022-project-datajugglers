@@ -1,6 +1,6 @@
 # Networking in the movie insustry : a key to success ?
 
-<img src="image/image_ADA.png" alt="drawing" width="500"/>
+<img src="image/image_ADA.png" alt="drawing" width="800"/>
 
 ## Study of the influence of actors network on their career evolution
 
@@ -10,7 +10,7 @@ How do actors become famous ? Is it only thanks to their skills ? Did their care
 
 We wanted to find a way to quantify how much an actor is successful in his carreer. We decided that a successful actor is an actor that plays in movies considered good by the public, which can be assessed thanks to the movie ratings. Then, an actor "success" is defined as the weighted average of their precedent movies, and the current one. Below, you can see the distribution of the movies rating, which looks like a normal distribution, centered in 6. 
 
-<img src="image/distribution_rates.png" alt="drawing" width="400"/>
+<img src="image/distribution_rates.png" alt="drawing" width="300"/>
 
 ### Graph construction and analysis
 
@@ -24,18 +24,25 @@ First, the graph of all the actors and movies have to be made. The graph is buil
 
 The average node degree of our graph for the entire period is equal to $\frac{2E}{N} = \frac{2*75276}{1225697} = 32$. 
 
-<img src="image/node_degree.png" alt="drawing" width="400"/>
+<img src="image/node_degree.png" alt="drawing" width="500"/>
 
 
 The node degree distribution is heavy tailed, with some actors that played with much more actors, so surely in much more movies than others.
 Then, let's look if this average degree depends on the time, and also if it changes with different time windows (if there is a strong change in the average degree per actor for longer or shorter time periods).
 
 
-<img src="image/average_degree.png" alt="drawing" width="400"/>
+<img src="image/average_degree.png" alt="drawing" width="500"/>
 
-There are more oscillations for a time window of 1 year, which is normal, because an actor can play in a very different numbers of movies from on year to another. Furthermore, the average degree of actors is higher when the time window is higher, which is, again, as expected, because the actor will have more time to play in movies with other actors. Finally, the average node degree in increasing with time, (the average node degree is much higher in 2010 than in 1980). This may be due to the fact that we have more data in 2010 than in 1980, and to a higher number of movies created in the 2000s.
+There are more oscillations for a time window of 1 year, which is normal, because an actor can play in a very different numbers of movies from on year to another. Furthermore, the average degree of actors is higher when the time window is higher, which is, again, as expected, because the actor will have more time to play in movies with other actors. Finally, the average node degree in increasing with time, (the average node degree is much higher in 2010 than in 1980). This may be due to the fact that we have more data in 2010 than in 1980, and to a higher number of movies created in the 2000s. We decided to keep a time window of 5, because there are less fluctuations than for 1 year, and less edges than for 10 years. 
 
-#### 
+#### K-distant neighborhoods
+
+Then, we wanted to investigate how does the K-distant neighborhood size distribution look for different K, and check that on a time window from 1998 to 2003. During this period of time, we got 75276 nodes, and 285474 edges.
+
+<img src="image/K_1.png" alt="drawing" width="500"/>
+<img src="image/K_2.png" alt="drawing" width="500"/>
+
+For K=1, the neighborhood of the actor is really the actors that played with him, weither K = 2 includes also the actors that played with the same actors one has played with, which increase the neighborhood considerably. 
 
 
 ### With how many actors do an actor play in average ? 
