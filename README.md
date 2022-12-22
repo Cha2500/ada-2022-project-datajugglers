@@ -64,7 +64,7 @@ There are more oscillations for a time window of 1 year, which is normal, becaus
 
 ###  Who are those actors that have the most co-workers ? Are they good actors ? 
 
-<iframe src="widget/file.html" width="800" height="600"></iframe>
+<iframe src="widget/file.html" width="400" height="300"></iframe>
 
 ADD graph or histogram with the ~40 actors that have most edges. 
 
