@@ -12,14 +12,21 @@ We wanted to find a way to quantify how much an actor is successful in his carre
 
 ![rating](image/distribution_rates.png)
 
+### Graph construction and analysis
 
-### Graph construction 
-
-First, the graph of all the actors and movies have to be made. The graph is built from movies between 1980  and 2010. 
+First, the graph of all the actors and movies have to be made. The graph is built from movies between 1980  and 2010. It is an undirected graph, since if one actor plays with another in a movie, it is always reciprocal.
 
 | number of nodes | number of edges |  
 |:----------------|:----------------|
 |  75276          | 1225697         | 
+
+The average node degree of our graph is equal to $\frac{2E}{N} = \frac{2*75276}{1225697} = 32$, which is quite a lot. 
+
+![node_degree](image/node_degree.png)
+
+The node degree distribution is heavy tailed, with some actors that played with much more actors, so surely in much more movies than others.
+
+
 
 
 
