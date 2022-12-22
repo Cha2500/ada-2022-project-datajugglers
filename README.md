@@ -61,10 +61,10 @@ But how does it change with the time window ?
 
 There are more oscillations for a time window of 1 year, which is normal, because an actor can play in a very different numbers of movies from on year to another. Furthermore, the average degree of actors is higher when the time window is higher, which is, again, as expected, because the actor will have more time to play in movies with other actors. Finally, the average node degree in increasing with time, (the average node degree is much higher in 2010 than in 1980). This may be due to the fact that we have more data in 2010 than in 1980, and to a higher number of movies created in the 2000s. We decided to keep a time window of 5, because there are less fluctuations than for 1 year, and less edges than for 10 years. 
 
-### How many active actors are there and in those active actors how many can you consider better than than the average (or worse)?
-
 
 ###  Who are those actors that have the most co-workers ? Are they good actors ? 
+
+<iframe src="widget/file.html" width="800" height="600"></iframe>
 
 ADD graph or histogram with the ~40 actors that have most edges. 
 
