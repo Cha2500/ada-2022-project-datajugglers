@@ -17,26 +17,6 @@ We wanted to find a way to quantify how much an actor is successful in his carre
   <img src="image/distribution_rates.png" alt="drawing" width="300"/>
 </p>
 
----> not sure to add
-### Graph construction and analysis
-
-#### K-distant neighborhoods
-
-Then, we wanted to investigate how does the K-distant neighborhood size distribution look for different K, and check that on a time window from 1998 to 2003. During this period of time, we got 75276 nodes, and 285474 edges.
-
-<p align="center">
-  <img src="image/K_1.png" alt="drawing" width="500"/>
-</p>
-
-<p align="center">
-  <img src="image/K_2.png" alt="drawing" width="500"/>
-</p>
-
-
-For K=1, the neighborhood of the actor is really the actors that played with him, weither K = 2 includes also the actors that played with the same actors one has played with, which increase the neighborhood considerably.
-
------
-
 ### With how many actors do an actor play in average ? 
 
 First, the graph of all the actors and movies have to be made. The graph is built from movies between 1980  and 2010. It is an undirected graph, since if one actor plays with another in a movie, it is always reciprocal.
@@ -69,6 +49,7 @@ There are more oscillations for a time window of 1 year, which is normal, becaus
 We refer to an active actor an actor that has more than 100 edges, so that has played with more than 100 actors throughout his whole carrier. 
 
 <iframe src="widget/file.html" width="400" height="300"></iframe>
+
 
 ADD graph or histogram with the ~40 actors that have most edges. 
 
