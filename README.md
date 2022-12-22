@@ -12,6 +12,8 @@ We wanted to find a way to quantify how much an actor is successful in his carre
 
 ![rating]("image/distribution_rates.png", width = "100")
 
+<img src="image/distribution_rates.png" alt="drawing" width="200"/>
+
 ### Graph construction and analysis
 
 First, the graph of all the actors and movies have to be made. The graph is built from movies between 1980  and 2010. It is an undirected graph, since if one actor plays with another in a movie, it is always reciprocal.
