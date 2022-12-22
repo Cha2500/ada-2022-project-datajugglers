@@ -5,8 +5,6 @@
   <img src="image/image_ADA.png" alt="drawing" width="800"/>
 </p>
 
-<img src="image/image_ADA.png" alt="drawing" width="800"/>
-
 ## Study of the influence of actors network on their career evolution
 
 How do actors become famous ? Is it only thanks to their skills ? Did their career explode once they played with an actor whose movies are already well recieved by the critics ? In this study, we aim to assess whether there is a link between an actor's network and his "score", where an actor score is characterized by the mean of the movie ratings he played in. For the purpose of our investigation, we construct a graph that can change over time, where nodes are actors and edges represent the fact that two actors play in a movie together. We study around 40 000 movies taken from [CMU Movie Summary Corpus](http://www.cs.cmu.edu/~ark/personas/), and use an additional dataset taken from [IMDb](https://datasets.imdbws.com/) in order to get the ratings of those movies. We study the actor's network evolution from 1980 to 2010, and analyze the interactions between the actors. 
@@ -15,7 +13,10 @@ How do actors become famous ? Is it only thanks to their skills ? Did their care
 
 We wanted to find a way to quantify how much an actor is successful in his carreer. We decided that a successful actor is an actor that plays in movies considered good by the public, which can be assessed thanks to the movie ratings. Then, an actor "success" is defined as the weighted average of their precedent movies, and the current one. Below, you can see the distribution of the movies rating, which looks like a normal distribution, centered in 6. 
 
-<img src="image/distribution_rates.png" alt="drawing" width="300"/>
+<p align="center">
+  <img src="image/distribution_rates.png" alt="drawing" width="300"/>
+</p>
+
 
 ### Graph construction and analysis
 
@@ -29,14 +30,17 @@ First, the graph of all the actors and movies have to be made. The graph is buil
 
 The average node degree of our graph for the entire period is equal to $\frac{2E}{N} = \frac{2*75276}{1225697} = 32$. 
 
-<img src="image/node_degree.png" alt="drawing" width="500"/>
+<p align="center">
+  <img src="image/node_degree.png" alt="drawing" width="500"/>
+</p>
 
 
 The node degree distribution is heavy tailed, with some actors that played with much more actors, so surely in much more movies than others.
 Then, let's look if this average degree depends on the time, and also if it changes with different time windows (if there is a strong change in the average degree per actor for longer or shorter time periods).
 
-
-<img src="image/average_degree.png" alt="drawing" width="500"/>
+<p align="center">
+  <img src="image/average_degree.png" alt="drawing" width="700"/>
+</p>
 
 There are more oscillations for a time window of 1 year, which is normal, because an actor can play in a very different numbers of movies from on year to another. Furthermore, the average degree of actors is higher when the time window is higher, which is, again, as expected, because the actor will have more time to play in movies with other actors. Finally, the average node degree in increasing with time, (the average node degree is much higher in 2010 than in 1980). This may be due to the fact that we have more data in 2010 than in 1980, and to a higher number of movies created in the 2000s. We decided to keep a time window of 5, because there are less fluctuations than for 1 year, and less edges than for 10 years. 
 
@@ -44,8 +48,14 @@ There are more oscillations for a time window of 1 year, which is normal, becaus
 
 Then, we wanted to investigate how does the K-distant neighborhood size distribution look for different K, and check that on a time window from 1998 to 2003. During this period of time, we got 75276 nodes, and 285474 edges.
 
-<img src="image/K_1.png" alt="drawing" width="500"/>
-<img src="image/K_2.png" alt="drawing" width="500"/>
+<p align="center">
+  <img src="image/K_1.png" alt="drawing" width="500"/>
+</p>
+
+<p align="center">
+  <img src="image/K_2.png" alt="drawing" width="500"/>
+</p>
+
 
 For K=1, the neighborhood of the actor is really the actors that played with him, weither K = 2 includes also the actors that played with the same actors one has played with, which increase the neighborhood considerably. 
 
