@@ -17,6 +17,11 @@ We wanted to find a way to quantify how much an actor is successful in his carre
 
 First, the graph of all the actors and movies have to be made. The graph is built from movies between 1980  and 2010. 
 
+| number of nodes | number of edges |  
+|:----------------|:----------------|
+|  75276          | 1225697         | 
+
+
 
 ### With how many actors do an actor play in average ? 
 
