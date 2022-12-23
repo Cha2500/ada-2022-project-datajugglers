@@ -5,7 +5,7 @@ show_downloads: True
 navigation:
   - title: Home
     url: /
-  - title: Example
-    url: example
+  - title: Case Study
+    url: Case_study.md
   - title: Temp
     url: temp
