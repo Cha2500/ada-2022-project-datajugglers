@@ -43,7 +43,7 @@ There are more oscillations for a time window of 1 year, which is normal, becaus
 
 ### What is the proportion of "active" actors ? Are they mostly good actors ?
 
-We refer to an active actor an actor that has more than 100 edges, so that has played with more than 100 actors throughout his/her carrier. Here, we can see that there are much less active actors than non-active ones. Then, we look into which actors have in general a better grade than their neighborhood (0,5 more in average) and which have a lower one (0,5 below in average). They are refered as "good" or "bad" actors, because they are better or worse than their neighborhood.  In the active actors, the proportion of good ones is very low: it is not because you are more active that you will be successful (this can be explained easily by taking the example of one actor that plays in a lot of movies, but not qualitative ones).
+We refer to an active actor an actor that has more than 100 edges, so that has played with more than 100 actors throughout his/her carrier. Here, we can see that there are much less active actors than non-active ones. Then, we look into which actors have in general a better grade than their neighborhood (1 point more in average) and which have a lower one (0,5 below in average). They are refered as "good" or "bad" actors, because they are better or worse than their neighborhood.  In the active actors, the proportion of good ones is very low: it is not because you are more active that you will be successful (this can be explained easily by taking the example of one actor that plays in a lot of movies, but not qualitative ones).
 
 <p align="center">
 <iframe src="widget/pie_chart.html" width="800" height="300"></iframe>
@@ -55,13 +55,14 @@ How does those percentages change if we look at the network over time ? Here, we
 <iframe src="widget/pie_chart_timedep.html" width="800" height="300"></iframe>
 </p>
 
-### Are the most active actors, the best ones?
+### Who are the most active actors ? 
+
+We wanted to look deeper into the 50 most active actors. Who are they ? What's their grade ? Below, you will find the answer to this question. Looking at their score, it is not increadible, compared to the number of egdes they have (500).
+To conclude, we can clearly say that the number of edges doesn't make the good actor. 
 
 <p align="center">
 <iframe src="widget/50_Actors.html" width="800" height="300"></iframe>
 </p>
-
-Answer: NO...
 
 ###  Let's see if good and bad actors play together 
 
