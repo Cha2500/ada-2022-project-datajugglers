@@ -51,9 +51,9 @@ How does those percentages change if we look at the network over time ? Here, we
 
 <iframe src="widget/pie_chart_timedep.html" width="800" height="300"></iframe>
 
-###  
+###  Let's see if good and bad actors play together 
 
-
+### Is there an influence of the neighborhood on the actor's score ? 
 
 This site was built using [this github repository](https://github.com/epfl-ada/ada-2022-project-datajugglers/tree/master)
 
