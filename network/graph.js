@@ -1,5 +1,5 @@
 async function readJSON(path) {
-	const response = await fetch(path"test.json");
+	const response = await fetch(path);
 	const json = await response.json();
 	return json;
 }
