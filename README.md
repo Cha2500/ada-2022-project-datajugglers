@@ -55,7 +55,7 @@ How does those percentages change if we look at the network over time ? Here, we
 <iframe src="widget/pie_chart_timedep.html" width="800" height="300"></iframe>
 </p>
 
-Below you can find a pie chart representing the distribution of active and non active actors.
+Below you can find a pie chart representing the distribution of active and non active actors for different minimum degree.
 <p align="center">
   <img src="image/smh.png" alt="drawing" width="700"/>
 </p>
