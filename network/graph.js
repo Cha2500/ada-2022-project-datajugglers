@@ -20,10 +20,12 @@ function colorInterpolation(level) {
 	return [~~color[0], ~~color[1], ~~color[2]];
 }
 
-const center = "Tom Cruise";
 const Settings = function() {
 	this.year = 1980;
 };
+
+
+const center = "Tom Cruise";
 
 const graph = ForceGraph3D()(document.getElementById('3d-graph')).jsonUrl("graph1980.json")
 	.nodeLabel(node => {
@@ -42,3 +44,13 @@ const graph = ForceGraph3D()(document.getElementById('3d-graph')).jsonUrl("graph
 			return false;
 		}
 	});
+
+const settings = new Settings();
+const gui = new dat.GUI();
+const controller = gui.add(settings, "year", 1980, 2010);
+controller.onChange(updateGraph);
+
+function updateGraph() {
+	alert(`Updating graph to year ${settings.year}`);
+	graph.jsonUrl(`graph${settings.year}.json`);
+}
