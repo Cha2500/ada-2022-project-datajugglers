@@ -70,8 +70,8 @@ Still, we can plainly state that the number of edges in our network doesn't mean
   <img src="image/bipartit_good_bad.png" alt="drawing" width="900"/>
 </p>
 
-Expected number of edges between two random active actors groups is 70.27, which is more than what we observe here : we get only 40 edges between the two groups. 
-We can inspect that in another way, looking at active actors with highest average rating and with lowest average rating and calculating number of edges between those two groups. Also we can check the same thing among two different groups of actors with high rating.
+The expected number of edges between two random active actor groups is 70.27, which is greater than what we see here, which is just 40.
+We can look at active actors with the highest average rating and active actors with the lowest average rating and count the number of edges between those two groups. We can also do the same thing with two distinct groups of actors with good ratings.
 
 <p align="center">
   <img src="image/bipartit_v_good_bad.png" alt="drawing" width="900"/>
@@ -82,7 +82,7 @@ We can inspect that in another way, looking at active actors with highest averag
 </p>
 
 For the first Bipartite graph, only 12 connections can be seen. However, when looking at the connections between highly rated actors, we obtain 148 connections, which is also lots more than the edges between "normal" good and bad actors.
-This suggests that successfull actors tend to play less with actors that have lower scores. Then, this can be difficult for an actor that starts to play in bad rated movies to rise up. We need to follow the carreer of the actors through time, and from the beginning, to see their starting point. 
+This suggests that successfull actors tend to play less with actors that have lower scores. Then, this can be difficult for an actor that starts to play in bad rated movies to rise up. We need to follow the carreer of the actors through time, and from the beginning, to see their starting point. But as an intermediate result we can say that good actors don't have the tendency to play with bad actors but in contrary they will mostly play with actors that also have a high rate.
 ### Is there an influence of the neighborhood on the actor's score ? 
 
 This site was built using [this github repository](https://github.com/epfl-ada/ada-2022-project-datajugglers/tree/master)
