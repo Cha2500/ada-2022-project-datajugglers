@@ -10,6 +10,6 @@ layout: default
 
 <iframe src="network/main.html" width="800" height="800"></iframe>
 
-Here, we will follow the career of Tom Cruise, at a K-neihborhood of 2. We study his career from his first movie in 1980 until the last one, in 2010. In red, you can see the actors that have grades lower than the average, and in white the ones that have grades above the average. 
+Here, we will follow the career of Tom Cruise, at a K-neihborhood of 2. We study his career from his first movie in 1980 until the last one, in 2010. (In red, you can see the actors that have grades lower than the average, and in white the ones that have grades above the average. )
 In 1980, the quality of the actor is only of 4,9/10, and has some neighbors that don't have a very good quality either. This was his first cinema apparition, in the movie called "Un amour infini"
 He is, however, linked to some good actors, like Thomas Howell, who has a grade of 7,9. Tom Cruise score rises to 7,1 in 1983. This is in accordance to his nomination to the Golden globe of the best actor after playing in "Risky business". Then, his score is decreasing a bit, until reaching 5,9 in 1988. At this moment, he plays with some very good rated actore again : Lucinda Jenney, Michael D. Roberts,  which have both a 8 as a grade. 
