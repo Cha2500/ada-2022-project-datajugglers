@@ -56,21 +56,22 @@ How does those percentages change if we look at the network over time ? Here, we
 ###  Let's see if good and bad actors play together 
 
 <p align="center">
-  <img src="image/bipartit_good_bad.png" alt="drawing" width="700"/>
+  <img src="image/bipartit_good_bad.png" alt="drawing" width="500"/>
 </p>
 
 Expected number of edges between two random active actors groups is 70.27, which is more than what we observe here : we get only 40 edges between the two groups. 
 We can inspect that in another way, looking at active actors with highest average rating and with lowest average rating and calculating number of edges between those two groups. Also we can check the same thing among two different groups of actors with high rating.
 
 <p align="center">
-  <img src="image/bipartit_v_good_bad.png" alt="drawing" width="700"/>
+  <img src="image/bipartit_v_good_bad.png" alt="drawing" width="500"/>
 </p>
 
 <p align="center">
-  <img src="image/bipartit_v_good.png" alt="drawing" width="700"/>
+  <img src="image/bipartit_v_good.png" alt="drawing" width="500"/>
 </p>
 
 For the first Bipartite graph, only 12 connections can be seen. However, when looking at the connections between highly rated actors, we obtain 148 connections, which is also lots more than the edges between "normal" good and bad actors.
+This suggests that successfull actors tend to play less with actors that have lower scores. Then, this can be difficult for an actor that starts to play in bad rated movies to rise up. We need to follow the carreer of the actors through time, and from the beginning, to see their starting point. 
 
 ### Is there an influence of the neighborhood on the actor's score ? 
 
