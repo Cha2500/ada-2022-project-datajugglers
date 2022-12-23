@@ -4,9 +4,9 @@ async function readJSON(path) {
 	return json;
 }
 
-const gData = readJSON("graph1.json");
-alert(gData);
-const Graph = ForceGraph3D()(document.getElementById('3d-graph')).graphData(gData);
+readJSON("graph1.json").then(gData => {
+	const Graph = ForceGraph3D()(document.getElementById('3d-graph')).graphData(gData);
+});
 	/*.nodeLabel("id"); /*.nodeAutoColorBy("rating").linkOpacity(0.5).nodeThreeObject(node => {
 		const sprite = new SpriteText(node.id + ".jpg");
 		sprite.material.depthWrite = false; // make sprite background transparent
