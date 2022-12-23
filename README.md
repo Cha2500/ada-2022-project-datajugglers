@@ -58,7 +58,7 @@ How does those percentages change if we look at the network over time ? Here, we
 ### Who are the most active actors ? 
 
 We wanted to go deeper into the top 50 active actors. Who exactly are they? What is their final grade? The answer to this question is provided below. Looking at their ratings, we can observe that there is a wide range of colors and that not just actors with ratings above 6 are represented. It's tough to say anything about those performers' profiles based solely on their ratings. Furthermore, we can observe that those performers come from extremely various backgrounds, with some of them being blockbuster specialists like Bruce Willis or Samuel L. Jackson and others playing in minor roles or low-budget productions like Christopher McDonald. It is worth noting that the blockbuster actors have greater grades than the supporting actors. This could imply that being a main actor in a blockbuster demands a high grade, and so an actor's rating and prestige would influence his/her likelihood of playing in a blockbuster, but because we don't have information on those blockbusters it is difficult to make it a general case.
-Still, we can plainly state that the number of edges in our network doesn't mean anything because the top 50 most active actors are too diverse to draw any conclusions other than that an actor who appears in a lot of movies is not necessarily a strong actor.
+Still, we can plainly state that the number of edges in our network doesn't mean anything because the top 50 most active actors are too diverse to draw any conclusions other than: "an actor who appears in a lot of movies is not necessarily a good actor".
 
 <p align="center">
 <iframe src="widget/50_Actors.html" width="800" height="300"></iframe>
