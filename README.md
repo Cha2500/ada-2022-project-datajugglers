@@ -58,7 +58,7 @@ How does those percentages change if we look at the network over time ? Here, we
 ### Are the most active actors, the best ones?
 
 <p align="center">
-<iframe src="widget/50_Actor.html" width="800" height="300"></iframe>
+<iframe src="widget/50_Actors.html" width="800" height="300"></iframe>
 </p>
 
 Answer: NO...
