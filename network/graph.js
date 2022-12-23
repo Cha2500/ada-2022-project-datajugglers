@@ -47,10 +47,9 @@ const graph = ForceGraph3D()(document.getElementById('3d-graph')).jsonUrl("graph
 
 const settings = new Settings();
 const gui = new dat.GUI();
-const controller = gui.add(settings, "year", 1980, 2010);
+const controller = gui.add(settings, "year", 1980, 2010, 1);
 controller.onChange(updateGraph);
 
 function updateGraph() {
-	alert(`Updating graph to year ${settings.year}`);
 	graph.jsonUrl(`graph${settings.year}.json`);
 }
