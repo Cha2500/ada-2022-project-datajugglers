@@ -10,5 +10,5 @@ PLOT SCORE AS A FUNCTION OF THE YEARS HE/SHE PLAYED IN A MOVIE
 ### GRAPH, RED/BLUE DOTS, SEE THE ACTOR AND NEIGHBORHOOD THROUGH THE ACTOR CAREER
 
 <p align="center">
-  <img src="image/1241136.png" alt="drawing" width="300"/>
+  <img src="image/1241136.png" alt="drawing" width="1000"/>
 </p>
