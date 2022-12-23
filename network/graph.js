@@ -23,9 +23,6 @@ function colorInterpolation(level) {
 }
 
 readJSON("graph1.json").then(gData => {
-
-	const worstColor = [255, 0, 0];
-	const worstColor = [255, 0, 0];
 	const graph = ForceGraph3D()(document.getElementById('3d-graph')).graphData(gData)
 		.nodeLabel(node => {
 			return `Actor: ${node.id}. Quality: ${node.rating}`;
