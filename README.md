@@ -50,7 +50,6 @@ We refer to an active actor an actor that has more than 100 edges, so that has p
 
 <iframe src="widget/pie_chart.html" width="800" height="300"></iframe>
 
-
 ADD graph or histogram with the ~40 actors that have most edges. 
 
 <iframe src="widget/pie_chart_timedep.html" width="800" height="300"></iframe>
