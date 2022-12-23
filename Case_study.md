@@ -16,7 +16,7 @@ He is, however, linked to some good actors, like Thomas Howell, who has a grade 
 
 Below, you can see another way to visualize the career of Tom Cruise, and his neighborhood. 
 
-<iframe src="network/TC_timewindow.html" width="800" height="800"></iframe>
+<iframe src="widget/TC_timewindow.html" width="800" height="800"></iframe>
 
 
 #### What can be said about his career ? 
