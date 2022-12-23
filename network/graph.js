@@ -27,8 +27,8 @@ const Settings = function() {
 
 const center = "Tom Cruise";
 
-const graph = ForceGraph3D()(document.getElementById('3d-graph')).jsonUrl("graph1980.json")
-	.nodeLabel(node => {
+const graph = ForceGraph3D()(document.getElementById('3d-graph'))
+	.jsonUrl("graphs/graph1980.json").nodeLabel(node => {
 		return `Actor: ${node.id}. Quality: ${node.rating}`;
 	}).nodeColor(node => {
 		const color = colorInterpolation(node.rating/10);
@@ -51,5 +51,5 @@ const controller = gui.add(settings, "year", 1980, 2010, 1);
 controller.onChange(updateGraph);
 
 function updateGraph() {
-	graph.jsonUrl(`graph${settings.year}.json`);
+	graph.jsonUrl(`graphs/graph${settings.year}.json`);
 }
