@@ -4,7 +4,7 @@ async function readJSON(path) {
 	return json;
 }
 
-const center = "Tom Cruise"
+const center = "Tom Cruise";
 
 readJSON("graph1.json").then(gData => {
 	const graph = ForceGraph3D()(document.getElementById('3d-graph')).graphData(gData)
@@ -18,5 +18,5 @@ readJSON("graph1.json").then(gData => {
 			} else {
 				return false;
 			}
-		});
+		}).cameraPosition({x: undefined, y: undefined, z: undefined}, center_node, 1000);
 });
