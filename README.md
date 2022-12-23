@@ -85,5 +85,17 @@ For the first Bipartite graph, only 12 connections can be seen. However, when lo
 This suggests that successfull actors tend to play less with actors that have lower scores. Then, this can be difficult for an actor that starts to play in bad rated movies to rise up. We need to follow the carreer of the actors through time, and from the beginning, to see their starting point. But as an intermediate result we can say that good actors don't have the tendency to play with bad actors but in contrary they will mostly play with actors that also have a high rating.
 ### Is there an influence of the neighborhood on the actor's score ? 
 
+Here, is a comparison of the ratings of three well-known actors: Robert De Niro, Johnny Depp, and Tom Cruise, as well as the mean rating of their neighborhood during their careers.
+<p align="center">
+  <img src="image/Robert_DeNiro.png" alt="drawing" width="700"/>
+</p>
+<p align="center">
+  <img src="image/Johnny_Depp.png" alt="drawing" width="700"/>
+</p>
+<p align="center">
+  <img src="image/Tom_Cruise.png" alt="drawing" width="700"/>
+</p>
+It is very funny to see that those three actors have career trajectories that are completly different than the general profile of their neighbourhood. Based on these three actors and many more we could really see that we couldn't say that there was a a big influence of the neighbourhood on the actors rating. We gess that the trajectory could be linked to a lot of more important factor such as, their opportunities, the network of their friends and many more... Still we wanted to investigate a bit more on some actors: So we decided to bring you along to discover in details the career of Tom Cruise using our rating index. Go see our Case Study if you want to learn more about it.
+
 This site was built using [this github repository](https://github.com/epfl-ada/ada-2022-project-datajugglers/tree/master)
 
