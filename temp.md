@@ -1,4 +1,4 @@
-Look, a graph v0.6:
+Look, a graph v0.7:
 
 <p align="center">
 <iframe src="network/main.html" width="800" height="300"/></iframe>
