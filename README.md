@@ -57,8 +57,8 @@ How does those percentages change if we look at the network over time ? Here, we
 
 ### Who are the most active actors ? 
 
-We wanted to look deeper into the 50 most active actors. Who are they ? What's their grade ? Below, you will find the answer to this question. Looking at their score, it is not increadible, compared to the number of egdes they have (500).
-To conclude, we can clearly say that the number of edges doesn't make the good actor. 
+We wanted to look deeper into the 50 most active actors. Who are they ? What's their grade ? Below, you will find the answer to this question. Looking at their score, we see that there is a wide range of colors and not only actors with ratings above 6. It is difficult to say anything about the profile of those actors based on only the rating. Furthermore we can see that those actors come from very different backgrounds, with some of them specialists of the blockbusters like Bruce Willis or Samuel L. Jackson and some other who played in small roles or second rate production like Christopher McDonald. It is interesting to note that, the blockbuster's actors are those who have the higher grades compared to the rest. This could be mean that to become main actor inside a blockbuster requires an already high grade and so the rating and prestige of an actor would influence his/her probability to play n a blockbuster. 
+Still, we can clearly say that the number of edges in our network don't mean anything because the top 50 most active actor is too diverse too conclude anything except that an actor who plays in a lot of movie won't necessarily be a good actor. 
 
 <p align="center">
 <iframe src="widget/50_Actors.html" width="800" height="300"></iframe>
