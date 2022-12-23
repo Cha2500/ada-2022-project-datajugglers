@@ -14,7 +14,7 @@ He is, however, linked to some good actors, like Thomas Howell, who has a grade 
 
 <iframe src="network/main.html" width="800" height="800"></iframe>
 
-Below, you can see another way to visualize the career of Tom Cruise, and his neighborhood. 
+Below, you can see another way to visualize the career of Tom Cruise, and his neighborhood. Tom Cruise is the central dot, the one with the bigest dot. The size of the dot diminishes as the actors are further away from Tom Cruise. The colors indicate the relative distance to Tom Cruise's score. On the x axis, we can see the repartition of the actors' edges. On the y axis, we can see the repartition of the actors looking at their score.
 
 <iframe src="widget/TC_timewindow.html" width="800" height="800"></iframe>
 
