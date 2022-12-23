@@ -1,14 +1,11 @@
 ---
 layout: default
 ---
-TO DO : PUT LATER NAME OF THE ACTOR INSTEAD OF THE NAME OF THE FILE
 
-### Career over time 
-
-PLOT SCORE AS A FUNCTION OF THE YEARS HE/SHE PLAYED IN A MOVIE 
-
-### GRAPH, RED/BLUE DOTS, SEE THE ACTOR AND NEIGHBORHOOD THROUGH THE ACTOR CAREER
+#### Case study : Tom Cruise
 
 <p align="center">
   <img src="image/1241136.png" alt="drawing" width="1000"/>
 </p>
+
+<iframe src="network/main.html" width="800" height="800"></iframe>
