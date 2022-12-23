@@ -7,7 +7,7 @@ async function readJSON(path) {
 function colorInterpolation(level) {
 	const color1 = [239, 138, 98];
 	const color2 = [247, 247, 247];
-	const color3 = [247, 247, 247];
+	const color3 = [103, 169, 207];
 
 	color = [0, 0, 0]
 	for (let i = 0; i < 3; i++) {
