@@ -41,16 +41,13 @@ But how does it change with the time window ?
 
 There are more oscillations for a time window of 1 year, which is normal, because an actor can play in a very different numbers of movies from on year to another. Furthermore, the average degree of actors is higher when the time window is higher, which is, again, as expected, because the actor will have more time to play in movies with other actors. Finally, the average node degree in increasing with time, (the average node degree is much higher in 2010 than in 1980). This may be due to the fact that we have more data in 2010 than in 1980, and to a higher number of movies created in the 2000s. We decided to keep a time window of 5, because there are less fluctuations than for 1 year, and less edges than for 10 years. 
 
-
-(###  Who are those actors that have the most co-workers ? Are they good actors ?) 
-
 ### What is the proportion of "active" actors ? Are they better than "non-active" actors ?
 
-We refer to an active actor an actor that has more than 100 edges, so that has played with more than 100 actors throughout his whole carrier. 
+We refer to an active actor an actor that has more than 100 edges, so that has played with more than 100 actors throughout his whole carrier. Here, we can see that there are much less active actors than non-active ones. Then, we look into which actors have in general a better grade than their neighborhood (0,5 more in average) and which have a lower one (0,5 below in average). They are refered as "good" or "bad" actors, because they are better or worse than their neighborhood.  In the active actors, the proportion of good ones is very low: it is not because you are more active that you will be successful (this can be explained easily by taking the example of one actor that plays in a lot of movies, but not qualitative ones).
 
 <iframe src="widget/pie_chart.html" width="800" height="300"></iframe>
 
-ADD graph or histogram with the ~40 actors that have most edges. 
+How does those percentages change if we look at the network over time ? Here, we investigated the changes of proportions through periods of 10 years. We can see that the proportion of good vs bad actors is almost equal through these periods, and that they rise with time, starting from 21,33%, for the first 10 years, and going until 30,1% for the last ten years. We have to remind that the average degree, for a time window of 10, is also increasing a lot. Then, it could be linked : if one play in more movies, he has more chances to improve himself, or also distinct himself as a bad actor.
 
 <iframe src="widget/pie_chart_timedep.html" width="800" height="300"></iframe>
 
