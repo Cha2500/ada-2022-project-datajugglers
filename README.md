@@ -48,7 +48,7 @@ There are more oscillations for a time window of 1 year, which is normal, becaus
 
 We refer to an active actor an actor that has more than 100 edges, so that has played with more than 100 actors throughout his whole carrier. 
 
-<iframe src="widget/file.html" width="400" height="300"></iframe>
+<iframe src="widget/pie_chart.html" width="400" height="300"></iframe>
 
 
 ADD graph or histogram with the ~40 actors that have most edges. 
