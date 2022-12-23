@@ -87,13 +87,13 @@ This suggests that successfull actors tend to play less with actors that have lo
 
 Here, is a comparison of the ratings of three well-known actors: Robert De Niro, Johnny Depp, and Tom Cruise, as well as the mean rating of their neighborhood during their careers.
 <p align="center">
-  <img src="image/Robert_DeNiro.png" alt="drawing" width="700"/>
+  <img src="image/Robert_DeNiro.jpeg" alt="drawing" width="700"/>
 </p>
 <p align="center">
-  <img src="image/Johnny_Depp.png" alt="drawing" width="700"/>
+  <img src="image/Johnny_Depp.jpeg" alt="drawing" width="700"/>
 </p>
 <p align="center">
-  <img src="image/Tom_Cruise.png" alt="drawing" width="700"/>
+  <img src="image/Tom_Cruise.jpeg" alt="drawing" width="700"/>
 </p>
 It is very funny to see that those three actors have career trajectories that are completly different than the general profile of their neighbourhood. Based on these three actors and many more we could really see that we couldn't say that there was a a big influence of the neighbourhood on the actors rating. We gess that the trajectory could be linked to a lot of more important factor such as, their opportunities, the network of their friends and many more... Still we wanted to investigate a bit more on some actors: So we decided to bring you along to discover in details the career of Tom Cruise using our rating index. Go see our Case Study if you want to learn more about it.
 
