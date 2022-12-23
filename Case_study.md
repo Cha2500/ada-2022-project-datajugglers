@@ -17,3 +17,11 @@ He is, however, linked to some good actors, like Thomas Howell, who has a grade 
 #### What can be said about his career ? 
 
 Overall his career, Tom Cruise didn't meet a lot of bad actors (we can almost not observe any red nodes throughout the whole network). Furthermore, the two times Tom Cruise had "bad" rates and encountered a well rated actor, he got a golden globe, and a price for his talent in being an actor. Is that because of his network ? Or because of his talent ? We cannot be sure... 
+
+#### Comparing to Brad Pitt
+
+Comparing with Brad Pitt, we can see that Brad Pitt rised his score more than Tom Cruise, after having played in the same movie together (after "Interview with a vampire"), starting from the same grade. Thus, we can conclude that an actor's neihborhood is not his/her principal asset. 
+
+<p align="center">
+  <img src="image/Brad_Pitt_rating.png" alt="drawing" width="1000"/>
+</p>
