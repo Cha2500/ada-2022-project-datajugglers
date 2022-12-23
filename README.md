@@ -58,7 +58,7 @@ How does those percentages change if we look at the network over time ? Here, we
 ### Who are the most active actors ? 
 
 We wanted to go deeper into the top 50 active actors. Who exactly are they? What is their final grade? The answer to this question is provided below. Looking at their ratings, we can observe that there is a wide range of colors and that not just actors with ratings above 6 are represented. It's tough to say anything about those performers' profiles based solely on their ratings. Furthermore, we can observe that those performers come from extremely various backgrounds, with some of them being blockbuster specialists like Bruce Willis or Samuel L. Jackson and others playing in minor roles or low-budget productions like Christopher McDonald. It is worth noting that the blockbuster actors have greater grades than the supporting actors. This could imply that being a main actor in a blockbuster demands a high grade, and so an actor's rating and prestige would influence his/her likelihood of playing in a blockbuster, but because we don't have information on those blockbusters it is difficult to make it a general case.
-Still, we can plainly state that the number of edges in our network doesn't mean anything because the top 50 most active actors are too diverse to draw any conclusions other than that an actor who appears in a lot of movies is not necessarily a strong actor.
+Still, we can plainly state that the number of edges in our network doesn't mean anything because the top 50 most active actors are too diverse to draw any conclusions other than: "an actor who appears in a lot of movies is not necessarily a good actor".
 
 <p align="center">
 <iframe src="widget/50_Actors.html" width="800" height="300"></iframe>
@@ -70,8 +70,8 @@ Still, we can plainly state that the number of edges in our network doesn't mean
   <img src="image/bipartit_good_bad.png" alt="drawing" width="900"/>
 </p>
 
-Expected number of edges between two random active actors groups is 70.27, which is more than what we observe here : we get only 40 edges between the two groups. 
-We can inspect that in another way, looking at active actors with highest average rating and with lowest average rating and calculating number of edges between those two groups. Also we can check the same thing among two different groups of actors with high rating.
+The expected number of edges between two random active actor groups is 70.27, which is greater than what we see here, which is just 40.
+We can look at active actors with the highest average rating and active actors with the lowest average rating and count the number of edges between those two groups. We can also do the same thing with two distinct groups of actors with good ratings.
 
 <p align="center">
   <img src="image/bipartit_v_good_bad.png" alt="drawing" width="900"/>
@@ -82,8 +82,20 @@ We can inspect that in another way, looking at active actors with highest averag
 </p>
 
 For the first Bipartite graph, only 12 connections can be seen. However, when looking at the connections between highly rated actors, we obtain 148 connections, which is also lots more than the edges between "normal" good and bad actors.
-This suggests that successfull actors tend to play less with actors that have lower scores. Then, this can be difficult for an actor that starts to play in bad rated movies to rise up. We need to follow the carreer of the actors through time, and from the beginning, to see their starting point. 
+This suggests that successfull actors tend to play less with actors that have lower scores. Then, this can be difficult for an actor that starts to play in bad rated movies to rise up. We need to follow the carreer of the actors through time, and from the beginning, to see their starting point. But as an intermediate result we can say that good actors don't have the tendency to play with bad actors but in contrary they will mostly play with actors that also have a high rating.
 ### Is there an influence of the neighborhood on the actor's score ? 
+
+Here, is a comparison of the ratings of three well-known actors: Robert De Niro, Johnny Depp, and Tom Cruise, as well as the mean rating of their neighborhood during their careers.
+<p align="center">
+  <img src="image/Robert_DeNiro.jpeg" alt="drawing" width="400"/>
+</p>
+<p align="center">
+  <img src="image/Johnny_Depp.jpeg" alt="drawing" width="400"/>
+</p>
+<p align="center">
+  <img src="image/Tom_Cruise.jpeg" alt="drawing" width="400"/>
+</p>
+It is very funny to see that those three actors have career trajectories that are completly different than the general profile of their neighbourhood. Based on these three actors and many more we could really see that we couldn't say that there was a a big influence of the neighbourhood on the actors rating. We gess that the trajectory could be linked to a lot of more important factor such as, their opportunities, the network of their friends and many more... Still we wanted to investigate a bit more on some actors: So we decided to bring you along to discover in details the career of Tom Cruise using our rating index. Go see our Case Study if you want to learn more about it.
 
 This site was built using [this github repository](https://github.com/epfl-ada/ada-2022-project-datajugglers/tree/master)
 
