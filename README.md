@@ -11,7 +11,7 @@ How do actors become famous ? Is it only thanks to their skills ? Did their care
 
 ### Why movie ratings as an actor's "success" scale ? 
 
-We wanted to find a way to quantify how much an actor is successful in his carreer. We decided that a successful actor is an actor that plays in movies considered good by the public, which can be assessed thanks to the movie ratings. Then, an actor "success" is defined as the weighted average of their precedent movies, and the current one. Below, you can see the distribution of the movies rating, which looks like a normal distribution, centered in 6. 
+We wanted to find a way to quantify how much an actor is successful in his carreer. We decided that a successful actor is an actor that plays in movies considered good by the public, which can be assessed thanks to the movie ratings. Then, an actor "success" is defined as the weighted average of their precedent movies, and the current one. Below, you can see the distribution of the movies rating, which looks like a normal distribution, but little bit skewed toward 6. Our movies seem to be quite good in general (ratings majoritarely above 5).
 
 <p align="center">
   <img src="image/distribution_rates.png" alt="drawing" width="300"/>
