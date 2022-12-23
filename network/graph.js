@@ -20,7 +20,7 @@ readJSON("graph1.json").then(gData => {
 			}
 		});
 
-	const center_node = graph.nodeId(center);
-	graph.cameraPosition({x: center_node.x, y: center_node.y, z: center_node.z},
-	                     center_node, 1000);
+	// const center_node = graph.nodeId(center);
+	// graph.cameraPosition({x: center_node.x, y: center_node.y, z: center_node.z},
+	//                       center_node, 1000);
 });
