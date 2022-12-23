@@ -41,17 +41,36 @@ But how does it change with the time window ?
 
 There are more oscillations for a time window of 1 year, which is normal, because an actor can play in a very different numbers of movies from on year to another. Furthermore, the average degree of actors is higher when the time window is higher, which is, again, as expected, because the actor will have more time to play in movies with other actors. Finally, the average node degree in increasing with time, (the average node degree is much higher in 2010 than in 1980). This may be due to the fact that we have more data in 2010 than in 1980, and to a higher number of movies created in the 2000s. We decided to keep a time window of 5, because there are less fluctuations than for 1 year, and less edges than for 10 years. 
 
-### What is the proportion of "active" actors ? Are they better mostly good actors ?
+### What is the proportion of "active" actors ? Are they mostly good actors ?
 
-We refer to an active actor an actor that has more than 100 edges, so that has played with more than 100 actors throughout his whole carrier. Here, we can see that there are much less active actors than non-active ones. Then, we look into which actors have in general a better grade than their neighborhood (0,5 more in average) and which have a lower one (0,5 below in average). They are refered as "good" or "bad" actors, because they are better or worse than their neighborhood.  In the active actors, the proportion of good ones is very low: it is not because you are more active that you will be successful (this can be explained easily by taking the example of one actor that plays in a lot of movies, but not qualitative ones).
+We refer to an active actor an actor that has more than 100 edges, so that has played with more than 100 actors throughout his/her carrier. Here, we can see that there are much less active actors than non-active ones. Then, we look into which actors have in general a better grade than their neighborhood (0,5 more in average) and which have a lower one (0,5 below in average). They are refered as "good" or "bad" actors, because they are better or worse than their neighborhood.  In the active actors, the proportion of good ones is very low: it is not because you are more active that you will be successful (this can be explained easily by taking the example of one actor that plays in a lot of movies, but not qualitative ones).
 
-<iframe src="widget/pie_chart.html" width="800" height="300"></iframe>
+<iframe src="widget/pie_chart.html" width="800" height="300"/>
 
-How does those percentages change if we look at the network over time ? Here, we investigated the changes of proportions through periods of 10 years. We can see that the proportion of good vs bad actors is almost equal through these periods, and that they rise with time, starting from 21,33%, for the first 10 years, and going until 30,1% for the last ten years. We have to remind that the average degree, for a time window of 10, is also increasing a lot. Then, it could be linked : if one play in more movies, he has more chances to improve himself, or also distinct himself as a bad actor.
+How does those percentages change if we look at the network over time ? Here, we investigated the changes of proportions through periods of 10 years. Throughout these periods, we can see that the proportion of good and bad actors is nearly equal (we have as much good as bad actors). The total proportion of out of the norm actors rises with time, starting from 21,33%, for the first 10 years, and going until 30,1% for the last ten years. We have to remind that the average degree, for a time window of 10, is also increasing a lot. Then, it could be linked : if one play in more movies, he has more chances to improve himself, or also distinct himself as a bad actor. It could also be that as we have more edges, actors can get more influenced by others, increasing the very good and very bad ones. 
 
+<p align="center">
 <iframe src="widget/pie_chart_timedep.html" width="800" height="300"></iframe>
+</p>
 
 ###  Let's see if good and bad actors play together 
+
+<p align="center">
+  <img src="image/bipartit_good_bad.png" alt="drawing" width="700"/>
+</p>
+
+Expected number of edges between two random active actors groups is 70.27, which is more than what we observe here : we get only 40 edges between the two groups. 
+We can inspect that in another way, looking at active actors with highest average rating and with lowest average rating and calculating number of edges between those two groups. Also we can check the same thing among two different groups of actors with high rating.
+
+<p align="center">
+  <img src="image/bipartit_v_good_bad.png" alt="drawing" width="700"/>
+</p>
+
+<p align="center">
+  <img src="image/bipartit_v_good.png" alt="drawing" width="700"/>
+</p>
+
+For the first Bipartite graph, only 12 connections can be seen. However, when looking at the connections between highly rated actors, we obtain 148 connections, which is also lots more than the edges between "normal" good and bad actors.
 
 ### Is there an influence of the neighborhood on the actor's score ? 
 
