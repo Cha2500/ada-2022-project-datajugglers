@@ -5,7 +5,7 @@ async function readJSON(path) {
 }
 
 readJSON("graph1.json").then(gData => {
-	const Graph = ForceGraph3D()(document.getElementById('3d-graph')).graphData(gData)
+	const graph = ForceGraph3D()(document.getElementById('3d-graph')).graphData(gData)
 		.nodeLabel("id").nodeAutoColorBy("rating").linkOpacity(0.25).nodeThreeObject(node => {
 			(new THREE.TextureLoader()).load(
 				`${node.id}.jpg`,  // file path
@@ -13,6 +13,7 @@ readJSON("graph1.json").then(gData => {
 					const material = new THREE.SpriteMaterial({map: texture});
 					const sprite = new THREE.Sprite(material);
 					sprite.scale.set(12, 12);
+					alert("Returning sprite of tom cruise xd");
 					return sprite;
 				},
 				undefined,  // on progress
@@ -21,4 +22,6 @@ readJSON("graph1.json").then(gData => {
 				}
 			)
 		});
+
+
 });
