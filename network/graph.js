@@ -5,9 +5,9 @@ async function readJSON(path) {
 }
 
 function colorInterpolation(level) {
-	const color1 = [252, 141, 89];
-	const color2 = [255, 255, 191];
-	const color3 = [145, 191, 219];
+	const color1 = [252,141,89];
+	const color2 = [255,255,191];
+	const color3 = [145,207,96];
 
 	if (level <= 1/3) {
 		return color1;
