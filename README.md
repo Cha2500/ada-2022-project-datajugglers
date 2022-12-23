@@ -52,13 +52,13 @@ We refer to an active actor an actor that has more than 100 edges, so that has p
 How does those percentages change if we look at the network over time ? Here, we investigated the changes of proportions through periods of 10 years. Throughout these periods, we can see that the proportion of good and bad actors is nearly equal (we have as much good as bad actors). The total proportion of out of the norm actors rises with time, starting from 21,33%, for the first 10 years, and going until 30,1% for the last ten years. We have to remind that the average degree, for a time window of 10, is also increasing a lot. Then, it could be linked : if one play in more movies, he has more chances to improve himself, or also distinct himself as a bad actor. It could also be that as we have more edges, actors can get more influenced by others, increasing the very good and very bad ones. 
 
 <p align="center">
-<iframe src="widget/pie_chart_timedep.html" width="800" height="300"/></iframe>
+<iframe src="widget/pie_chart_timedep.html" width="800" height="300"></iframe>
 </p>
 
 ### Are the most active actors, the best ones?
 
 <p align="center">
-<iframe src="widget/50_Actors.html" width="800" height="300"/></iframe>
+<iframe src="widget/50_Actors.html" width="800" height="300"></iframe>
 </p>
 
 Answer: NO...
