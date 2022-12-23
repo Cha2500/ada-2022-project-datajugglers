@@ -1,4 +1,4 @@
-# Networking in the movie insustry : a key to success ?
+# Networking in the movie industry : a key to success ?
 
 
 <p align="center">
