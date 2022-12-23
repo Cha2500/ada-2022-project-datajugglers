@@ -13,10 +13,14 @@ readJSON("graph1.json").then(gData => {
 				const texture = new THREE.TextureLoader().load(`${node.id}.jpg`);
 				const material = new THREE.SpriteMaterial({map: texture});
 				const sprite = new THREE.Sprite(material);
-				sprite.scale.set(12, 12);
+				sprite.scale.set(64, 64);
 				return sprite;
 			} else {
 				return false;
 			}
-		}).cameraPosition({x: undefined, y: undefined, z: undefined}, center_node, 1000);
+		});
+
+	const center_node = graph.nodeId(center);
+	graph.cameraPosition({x: center_node.x, y: center_node.y, z: center_node.z},
+	                     center_node, 1000);
 });
