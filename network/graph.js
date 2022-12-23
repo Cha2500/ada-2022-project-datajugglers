@@ -8,7 +8,9 @@ const center = "Tom Cruise";
 
 readJSON("graph1.json").then(gData => {
 	const graph = ForceGraph3D()(document.getElementById('3d-graph')).graphData(gData)
-		.nodeLabel("id").nodeAutoColorBy("rating").linkOpacity(0.25).nodeThreeObject(node => {
+		.nodeLabel(node => {
+			return `Actor: ${node.id}.\nQuality: ${node.rating}`;
+		}).nodeAutoColorBy("rating").linkOpacity(0.25).nodeThreeObject(node => {
 			if (node.id == center) {
 				const texture = new THREE.TextureLoader().load(`${node.id}.jpg`);
 				const material = new THREE.SpriteMaterial({map: texture});
@@ -19,8 +21,4 @@ readJSON("graph1.json").then(gData => {
 				return false;
 			}
 		});
-
-	// const center_node = graph.nodeId(center);
-	// graph.cameraPosition({x: center_node.x, y: center_node.y, z: center_node.z},
-	//                       center_node, 1000);
 });
