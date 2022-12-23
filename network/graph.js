@@ -6,8 +6,8 @@ async function readJSON(path) {
 
 readJSON("graph1.json").then(gData => {
 	const Graph = ForceGraph3D()(document.getElementById('3d-graph')).graphData(gData)
-		.nodeLabel("id").nodeAutoColorBy("rating").linkOpacity(0.5).nodeThreeObject(node => {
-			THREE.TextureLoader().load(
+		.nodeLabel("id").nodeAutoColorBy("rating").linkOpacity(0.25).nodeThreeObject(node => {
+			(new THREE.TextureLoader()).load(
 				`${node.id}.jpg`,  // file path
 				texture => {  // on success
 					const material = new THREE.SpriteMaterial({map: texture});
