@@ -55,13 +55,14 @@ How does those percentages change if we look at the network over time ? Here, we
 <iframe src="widget/pie_chart_timedep.html" width="800" height="300"></iframe>
 </p>
 
-### Are the most active actors, the best ones?
+### Who are the most active actors ? 
+
+We wanted to look deeper into the 50 most active actors. Who are they ? What's their grade ? Below, you will find the answer to this question. Looking at their score, it is not increadible, compared to the number of egdes they have (500).
+To conclude, we can clearly say that the number of edges doesn't make the good actor. 
 
 <p align="center">
 <iframe src="widget/50_Actors.html" width="800" height="300"></iframe>
 </p>
-
-Answer: NO...
 
 ###  Let's see if good and bad actors play together 
 
