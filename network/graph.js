@@ -9,6 +9,15 @@ function colorInterpolation(level) {
 	const color2 = [247, 247, 247];
 	const color3 = [103, 169, 207];
 
+	if (level <= 1/3) {
+		return color1;
+	} else if (level <= 2/3) {
+		return color2;
+	} else {
+		return color3;
+	}
+
+	/*
 	color = [0, 0, 0]
 	for (let i = 0; i < 3; i++) {
 		if (level <= 0.5) {
@@ -18,6 +27,7 @@ function colorInterpolation(level) {
 		}
 	}
 	return [~~color[0], ~~color[1], ~~color[2]];
+	*/
 }
 
 const Settings = function() {
