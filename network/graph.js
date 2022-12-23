@@ -31,7 +31,7 @@ readJSON("graph1.json").then(gData => {
 			return `Actor: ${node.id}. Quality: ${node.rating}`;
 		}).nodeColor(node => {
 			const color = colorInterpolation(node.rating/10);
-			return `rgb(${color[0]}, ${color[1]}, ${color[2]}`;
+			return `rgb(${color[0]}, ${color[1]}, ${color[2]})`;
 		}).linkOpacity(0.25).nodeThreeObject(node => {
 			if (node.id == center) {
 				const texture = new THREE.TextureLoader().load(`${node.id}.jpg`);
