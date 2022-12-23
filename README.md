@@ -82,7 +82,7 @@ We can look at active actors with the highest average rating and active actors w
 </p>
 
 For the first Bipartite graph, only 12 connections can be seen. However, when looking at the connections between highly rated actors, we obtain 148 connections, which is also lots more than the edges between "normal" good and bad actors.
-This suggests that successfull actors tend to play less with actors that have lower scores. Then, this can be difficult for an actor that starts to play in bad rated movies to rise up. We need to follow the carreer of the actors through time, and from the beginning, to see their starting point. But as an intermediate result we can say that good actors don't have the tendency to play with bad actors but in contrary they will mostly play with actors that also have a high rate.
+This suggests that successfull actors tend to play less with actors that have lower scores. Then, this can be difficult for an actor that starts to play in bad rated movies to rise up. We need to follow the carreer of the actors through time, and from the beginning, to see their starting point. But as an intermediate result we can say that good actors don't have the tendency to play with bad actors but in contrary they will mostly play with actors that also have a high rating.
 ### Is there an influence of the neighborhood on the actor's score ? 
 
 This site was built using [this github repository](https://github.com/epfl-ada/ada-2022-project-datajugglers/tree/master)
